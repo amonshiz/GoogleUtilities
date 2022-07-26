@@ -24,9 +24,9 @@ objc_library(
     hdrs = glob([
         "GoogleUtilities/Environment/**/*.h",
     ]),
-    includes = [
-        "GoogleUtilities/Environment/Public/GoogleUtilities",
-    ],
+    includes = glob([
+        "GoogleUtilities/Environment/Public/GoogleUtilities/**/*.h",
+    ]),
     sdk_frameworks = [
         "Security",
     ],
