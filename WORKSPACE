@@ -39,3 +39,10 @@ load(
 )
 
 apple_support_dependencies()
+
+http_archive(
+    name = "Promises",
+    sha256 = "c7d12165d51cf39b82a173141af49aa76cb72a783e64bfd74e38a2a936ff6b12",
+    strip_prefix = "promises-2.1.1",
+    url = "https://github.com/amonshiz/promises/archive/refs/tags/2.1.1.tar.gz",
+)
