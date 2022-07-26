@@ -22,11 +22,11 @@ objc_library(
         "GoogleUtilities/Environment/**/*.h",
     ]),
     hdrs = glob([
-        "GoogleUtilities/Environment/**/*.h",
+        "GoogleUtilities/Environment/Public/**/*.h",
     ]),
-    includes = glob([
-        "GoogleUtilities/Environment/Public/GoogleUtilities/**/*.h",
-    ]),
+    # includes = glob([
+    #     "GoogleUtilities/Environment/Public/GoogleUtilities/**/*.h",
+    # ]),
     sdk_frameworks = [
         "Security",
     ],
