@@ -45,7 +45,7 @@ objc_library(
         "GoogleUtilities/Logger/**/*.h",
     ]),
     includes = [
-        "GoogleUtilities/Logger/Public/GoogleUtilities",
+        "GoogleUtilities/Logger/Public",
     ],
     deps = [
         ":Environment",
