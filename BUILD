@@ -7,7 +7,10 @@ objc_library(
         "./",
     ],
     module_name = "GoogleUtilities",
-    deps = [],
+    deps = [
+        ":Environment",
+        ":Logger",
+    ],
 )
 
 objc_library(
